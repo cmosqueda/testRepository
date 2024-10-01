@@ -1,7 +1,9 @@
-print('hello this is test')
+size = 10
+num1 = 0
+num2 = 1
 
-print('this is new code')
-
-print('another line')
-
-print('another')
+for x in range(size):
+    print(f'{num1}', end=', ')
+    nth = num1 + num2
+    num1 = num2
+    num2 = nth
